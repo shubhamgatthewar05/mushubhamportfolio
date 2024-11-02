@@ -1,0 +1,694 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Personal Portfolio - Shubham Gatthewar</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+
+
+
+    <!-- bootstrap css cdn link  -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-rbsA2VBKQhggwzxH7pPCaAqO46MgnOM80zW1RWuH61DGLwZJEdK2Kadq2F9CUG65"
+      crossorigin="anonymous"
+    />
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="css/style.css" />
+
+    <!-- google font link -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- bootstrap icon cdn link  -->
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.4/font/bootstrap-icons.css"
+    />
+
+    <!-- for adding animation to website we have use AOS library 
+    AOS Library css file cdn link -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <!-- jquery cdn link  -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+  </head>
+  <body>
+    <!-- navbar starts -->
+    <nav
+      id="navbar-top"
+      class="navbar navbar-expand-lg navbar-light bg-white sticky-top"
+    >
+      <div class="container-fluid px-5">
+        <a class="navbar-brand fw-bold fs-2" href="#" style="color: #3f396d"
+          >Portfolio</a
+        >
+        <button
+          class="nav-menu d-md-none"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+        >
+          <i class="bi bi-menu-button-fill"></i>
+        </button>
+        <div
+          class="collapse navbar-collapse justify-content-center"
+          id="navbarNav"
+        >
+          <ul class="navbar-nav gap-4" style="font-size: 1.1rem">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#about">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#service">Expertise</a>
+            </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#skill">Skills</a>
+              </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#project">Projects</a>
+            </li>
+           
+          </ul>
+        </div>
+        <a href="mailto:gatthewarshubham0@gmail.com" target="_blank">
+          <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Contact</button>
+        </a>
+
+      </div>
+    </nav>
+    <!-- navbar ends here -->
+
+    <!-- home section starts  -->
+    <section class="home pt-5 pb-5" id="about">
+      <div class="row justify-content-evenly align-middle">
+        <!-- here data-aos is used for adding aos animation  -->
+        <div class="col-10 col-md-6 text-center text-md-start" data-aos="slide-right">
+          <h2 style="color: #3f396d">
+            Hello! I Am <br /><span class="c-orange">Shubham Gatthewar</span>
+          </h2>
+          <p class="text-muted">
+          I am an Information Technology undergraduate at MGM's College of Engineering, Nanded, Maharashtra.
+          Based in Nanded, I am deeply passionate about enhancing my skills in machine learning, data science, and Python
+          development.
+          <br>
+          My work primarily involves building predictive models and developing solutions using computer vision and natural
+          language processing (NLP). I have completed several machine learning projects, applying advanced algorithms to create
+          intelligent and impactful models. Constantly pushing myself to grow, I love diving into complex problems and finding
+          innovative ways to solve them.
+
+          </p>
+          <a href="mailto:gatthewarshubham0@gmail.com" target="_blank">
+            <button class="c-btn ms-4 py-2 px-4 rounded-pill d-none d-md-block">Hire Me</button>
+          </a>
+          <a href="" class="link ms-4 d-none">See My Work</a>
+        </div>
+        <div class="col-10 col-md-4 d-none d-md-block">
+          <img src="images/Photo1.jpeg" class="img-fluid" alt="" />
+        </div>
+      </div>
+    </section>
+    <!-- home section ends here -->
+
+    <!-- expertise section starts -->
+  <section class="expertise mt-5" id="service">
+    <div class="heading text-center">
+      <small>My Expertise</small>
+      <h3>
+        Providing a Wide Range of <br />
+        Professional Services
+      </h3>
+    </div>
+    <div class="row justify-content-evenly mt-5">
+      <!-- Machine Learning -->
+      <div class="col-10 col-md-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/machine_learning.jpeg" class="w-25 img-fluid img" alt="Machine Learning Icon" />
+          </div>
+          <div class="content mt-3">
+            <h4>Machine Learning</h4>
+            <p class="text-muted">
+              Leveraging algorithms and models to enable data-driven predictions
+              and insights in real-world applications.
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Data Science -->
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/data-science.webp" class="w-25 img-fluid img" alt="Data Science Icon" />
+          </div>
+          <div class="content mt-3">
+            <h4>Data Science</h4>
+            <p class="text-muted">
+              Applying data exploration and statistical analysis to uncover
+              patterns and insights to guide decision-making.
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Python Development -->
+      <div class="col-md-4 col-10" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/python.png" class="w-25 img-fluid img" alt="Python Development Icon" />
+          </div>
+          <div class="content mt-3">
+            <h4>Python Development</h4>
+            <p class="text-muted">
+              Crafting efficient and robust Python applications, automations, and
+              solutions for various industries.
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- Data Analysis -->
+      <div class="col-md-4 col-10 mt-4" data-aos="fade-up">
+        <div class="service-card">
+          <div class="img">
+            <img src="images/data_analysis.png" class="w-25 img-fluid img" alt="Data Analysis Icon" />
+          </div>
+          <div class="content mt-3">
+            <h4>Data Analysis</h4>
+            <p class="text-muted">
+              Utilizing analytical techniques to interpret data, generate reports,
+              and provide actionable insights.
+            </p>
+            <a href="" class="link">Read More</a>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+    <!-- expertise section ends here -->
+
+    <!-- skill section starts -->
+<!-- Skill Section Starts -->
+<section class="skill mt-5 py-5" id="skill">
+  <div class="skill-container">
+    <!-- HTML & CSS -->
+    <div class="progress-card html-css">
+      <div class="circular-progress">
+        <span class="progress-value html-progress">0%</span>
+      </div>
+      <span class="text">HTML & CSS</span>
+    </div>
+
+    <!-- JavaScript -->
+    <div class="progress-card javascript">
+      <div class="circular-progress">
+        <span class="progress-value javascript-progress">0%</span>
+      </div>
+      <span class="text">JavaScript</span>
+    </div>
+
+    <!-- PHP -->
+    <div class="progress-card php">
+      <div class="circular-progress">
+        <span class="progress-value php-progress">0%</span>
+      </div>
+      <span class="text">PHP</span>
+    </div>
+
+    <!-- Python -->
+    <div class="progress-card python">
+      <div class="circular-progress">
+        <span class="progress-value python-progress">0%</span>
+      </div>
+      <span class="text">Python</span>
+    </div>
+
+    <!-- Flask -->
+    <div class="progress-card flask">
+      <div class="circular-progress">
+        <span class="progress-value flask-progress">0%</span>
+      </div>
+      <span class="text">Flask</span>
+    </div>
+
+    <!-- Machine Learning -->
+    <div class="progress-card ml">
+      <div class="circular-progress">
+        <span class="progress-value ml-progress">0%</span>
+      </div>
+      <span class="text">Machine Learning</span>
+    </div>
+
+    <!-- NLP -->
+    <div class="progress-card nlp">
+      <div class="circular-progress">
+        <span class="progress-value nlp-progress">0%</span>
+      </div>
+      <span class="text">NLP</span>
+    </div>
+
+    <div class="progress-card sql">
+      <div class="circular-progress">
+        <span class="progress-value sql-progress">0%</span>
+      </div>
+      <span class="text">SQL</span>
+    </div>
+    
+  </div>
+</section>
+
+<div class="heading mt-5 mt-md-3">
+  <small>My Skills</small>
+  <h3>Innovative & Practical Digital Solutions</h3>
+  <p class="text-muted">
+    As a final-year IT student with a strong foundation in machine learning, data science, and Python development, I
+    focus on crafting efficient and scalable solutions. My journey includes experience in data analysis, model building,
+    and data visualization, with hands-on expertise in using tools like Jupyter, Anaconda, and Power BI.
+  </p>
+  <p class="text-muted">
+    Passionate about exploring advanced data analytics and machine learning techniques, I am committed to applying my
+    skills in real-world projects and continuously expanding my knowledge in this rapidly evolving field.
+  </p>
+
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              <!-- here download attribute is used for adding download functionality to button  -->
+              <a
+                href="https://drive.google.com/file/d/184cuj6o_2sZYMGuVAYzXxlh6MRgNp9Ct/view?usp=sharing"
+                download="SampleCV"
+                style="text-decoration: none;color: #fff;"
+                >Download CV</a
+              >
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- skill section end here -->
+
+    <!-- portfolio section starts here -->
+    <section class="portfolio" id="project">
+      <div class="heading text-center pt-5">
+        <small>Creative Work</small>
+        <h3>Check My Projects</h3>
+      </div>
+
+      <div id="myBtnContainer" class="text-center mt-4">
+        <!-- here we will create custom attribute using data- for filtering -->
+        <button class="filter-item" data-filter="all">All</button>
+        <button class="filter-item" data-filter="game">Data Science</button>
+        <button class="filter-item" data-filter="webapp">Computer vision</button>
+        <button class="filter-item" data-filter="website">Python Development</button>
+        <button class="filter-item" data-filter="brand">Power BI</button>
+      </div>
+      <div class="portfolio-body">
+        <div class="row justify-content-evenly px-4">
+          <div class="post col-md-4 brand all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/project1.jpeg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Rural AI Hub</h4>
+                <p class="card-text">
+                  <!-- <strong>March 2024 – June 2024</strong><br> -->
+                  Centralized platform for Maharashtra government surveys in rural areas, supporting data analysis,
+                  visualization, and access controls. Predictive analytics applied to survey data, generating actionable insights for
+                  addressing key issues.
+                </p>
+              <span class="badge bg-secondary badge-pill">Python</span>
+              <span class="badge bg-secondary badge-pill">HTML</span>
+              <span class="badge bg-secondary badge-pill">LLM</span>
+              <span class="badge bg-secondary badge-pill">AWS</span>
+              <span class="badge bg-secondary badge-pill">Gemini</span>
+              <span class="badge bg-secondary badge-pill">MongoDB</span>
+              <span class="badge bg-secondary badge-pill">Flask</span>
+              <span class="badge bg-secondary badge-pill">GitHub</span>
+              <span class="badge bg-secondary badge-pill">Scikit-learn</span>
+              <span class="badge bg-secondary badge-pill">Power BI</span>
+                ><br />
+                <a href="https://github.com/shubhamgatthewar05/Rular_AIHub/tree/main/thewatchdogs-main" class="link"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/project2.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Plant Disease Detection App</h4>
+<p class="card-text justify-text">
+  Developed a plant disease detection app using a CNN model to classify diseases from leaf images, aimed at assisting
+  farmers and researchers. The app, built with Streamlit, allows users to upload leaf images and provides real-time
+  predictions with confidence scores. The model was trained on an augmented, labeled dataset, enhancing robustness and
+  accuracy.
+</p>
+
+                    <span class="badge bg-secondary badge-pill">Python</span>
+                    <span class="badge bg-secondary badge-pill">TensorFlow/Keras</span>
+                    <span class="badge bg-secondary badge-pill">Streamlit</span>
+                    <span class="badge bg-secondary badge-pill">PIL</span>
+                    <span class="badge bg-secondary badge-pill">NumPy</span>
+                    <span class="badge bg-secondary badge-pill">JSON</span>
+
+                ><br />
+                <a href="https://github.com/shubhamgatthewar05/Crop_Disease_Detection_Using_CNN" class="read-more-btn link"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 webapp all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/project3.jpg" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Voice-Activated Personal Assistant</h4>
+                  <p class="card-text">
+                    <!-- <strong>February 2024 – April 2024</strong><br> -->
+Developed a voice-activated personal assistant that utilizes speech recognition for accurate command processing and
+provides voice feedback using text-to-speech technology. Leveraged a RandomForestClassifier for command classification,
+ensuring responsive task handling. Automated web and GUI interactions using Selenium WebDriver and PyAutoGUI for
+efficient task management.
+
+                  </p>
+                    <span class="badge bg-secondary badge-pill">Python</span>
+                    <span class="badge bg-secondary badge-pill">SpeechRecognition</span>
+                    <span class="badge bg-secondary badge-pill">pyttsx3</span>
+                    <span class="badge bg-secondary badge-pill">OpenAI API</span>
+                    <span class="badge bg-secondary badge-pill">Selenium</span>
+                    <span class="badge bg-secondary badge-pill">PyAutoGUI</span>
+                    <span class="badge bg-secondary badge-pill">RandomForestClassifier</span>
+
+                ><br />
+                <a href="https://github.com/shubhamgatthewar05/Personal-Voice-Assistant" class="read-more-btn link" target="_blank">
+                  <i class="fab fa-github"></i> GitHub
+                </a>
+
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="row justify-content-evenly mt-4 px-4">
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/project5.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">School Management System</h4>
+                <p class="card-text">
+                  Developed a web-based school management system using Flask and MongoDB to efficiently manage students, teachers,
+                  library transactions, and non-teaching staff. The application features a user-friendly dashboard displaying total
+                  counts and detailed information about students. Users can perform CRUD operations to add, display, and manage student
+                  and teacher details, library transactions, and non-teaching staff information through a robust Flask API.
+                </p>
+
+                <span class="badge bg-secondary badge-pill">HTML&CSS</span>
+                <span class="badge bg-secondary badge-pill">JavaScript</span>
+                <span class="badge bg-secondary badge-pill mb-2">Python</span
+                >
+                <span class="badge bg-secondary badge-pill">Flask</span>
+                <span class="badge bg-secondary badge-pill">MongoDB</span>
+                <span class="badge bg-secondary badge-pill mb-2">jQuery</span>
+                <br />
+                <a href="https://github.com/shubhamgatthewar05/SchoolManagmentSystem/tree/main" class="read-more-btn link"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 website all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img src="images/project4.png" class="card-img-top" alt="..." />
+              <div class="card-body text-center">
+                <h4 class="card-title">Social Media Platform for Campus</h4>
+                <p class="card-text justify-text">
+Developed a full-stack social media platform using Flask and MongoDB, serving over 500 users for content sharing and
+real-time communication within the campus community. Key features include a user and post search function and toxic
+comment detection using the Roberta NLP model, achieving 85% accuracy to ensure a safer online environment.
+
+
+                </p>
+      <span class="badge bg-secondary badge-pill">Python</span>
+      <span class="badge bg-secondary badge-pill">Flask</span>
+      <span class="badge bg-secondary badge-pill">MongoDB</span>
+      <span class="badge bg-secondary badge-pill">NLP</span>
+      <span class="badge bg-secondary badge-pill">RandomForestClassifier</span>
+      <span class="badge bg-secondary badge-pill">Selenium</span>
+      <span class="badge bg-secondary badge-pill">PyAutoGUI</span>
+
+                ><br />
+                <a href="https://github.com/shubhamgatthewar05/Social-Media-Platform-for-Campus-" class="read-more-btn link"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+          <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+            <div class="card">
+              <img
+                src="images/project6.png"
+                class="card-img-top"
+                alt="..."
+              />
+              <div class="card-body text-center">
+                <h4 class="card-title">Crop Recommendation System 🌱</h4>
+                <p class="card-text justify-text">
+                  Developed a crop recommendation system utilizing a Random Forest Classifier machine learning model to recommend the
+                  most suitable crop based on soil and weather conditions. The application features an interactive Streamlit interface,
+                  allowing users to input parameters such as nitrogen, phosphorus, potassium levels, temperature, humidity, pH, and
+                  rainfall for accurate predictions. The project includes data preprocessing steps like scaling and label encoding, and
+                  it also ensures model persistence by saving the trained model, scaler, and label encoder for future use.
+                </p>
+
+                    <span class="badge bg-secondary badge-pill">Python</span>
+                    <span class="badge bg-secondary badge-pill">Random Forest Classifier</span>
+                    <span class="badge bg-secondary badge-pill">Machine Learning</span>
+                    <span class="badge bg-secondary badge-pill">Streamlit</span>
+                    <span class="badge bg-secondary badge-pill">Data Preprocessing</span>
+
+                ><br />
+                <a href="https://github.com/shubhamgatthewar05/Crop_recommandation_app" class="read-more-btn link"><i class="fab fa-github"></i> GitHub</a>
+              </div>
+            </div>
+          </div>
+            <div class="post col-md-4 brand all col-10 mt-3 mt-md-0" data-aos="fade-up">
+              <div class="card">
+                <img src="images/project7.png" class="card-img-top" alt="..." />
+                <div class="card-body text-center">
+                  <h4 class="card-title">Cells Analysis Project</h4>
+                <p class="card-text justify-text">
+                  Developed a comprehensive Cells Analysis Project using Power BI to analyze cell data. This project features an
+                  interactive dashboard that provides insights into various aspects of the cell data, showcasing visualizations that
+                  help identify patterns, trends, and key metrics related to the cells. The analysis aims to enhance understanding and
+                  support decision-making based on the data presented.
+                </p>
+                      <span class="badge bg-secondary badge-pill">Power BI</span>
+                      <span class="badge bg-secondary badge-pill">Data Analysis</span>
+                      <span class="badge bg-secondary badge-pill">Data Visualization</span>
+            
+                  ><br />
+                  <a href="https://github.com/shubhamgatthewar05/ecommercesellsanalytics" class="read-more-btn link"><i class="fab fa-github"></i> GitHub</a>
+                </div>
+              </div>
+            </div>
+              <div class="post col-md-4 game all col-10 mt-3 mt-md-0" data-aos="fade-up">
+                <div class="card">
+                  <img src="images/Project8.png" class="card-img-top" alt="..." />
+                  <div class="card-body text-center">
+                    <h4 class="card-title">Fake News Detection App</h4>
+                    <p class="card-text justify-text">
+                      Developed a machine learning-based application to classify news articles as Fake or True. This project utilizes
+                      various classifiers and natural language processing techniques to provide accurate predictions, assisting users in
+                      discerning the authenticity of news content. The application leverages data handling with pandas and numpy,
+                      visualizations using seaborn, matplotlib, and wordcloud, and implements machine learning algorithms through
+                      scikit-learn and xgboost. It is built as a web app using Streamlit, ensuring user-friendly interaction, while also
+                      employing joblib and tqdm for model persistence and progress tracking.
+                    </p>
+
+      <span class="badge bg-secondary badge-pill">Python</span>
+      <span class="badge bg-secondary badge-pill">pandas</span>
+      <span class="badge bg-secondary badge-pill">numpy</span>
+      <span class="badge bg-secondary badge-pill">seaborn</span>
+      <span class="badge bg-secondary badge-pill">matplotlib</span>
+      <span class="badge bg-secondary badge-pill">wordcloud</span>
+      <span class="badge bg-secondary badge-pill">scikit-learn</span>
+      <span class="badge bg-secondary badge-pill">xgboost</span>
+      <span class="badge bg-secondary badge-pill">nltk</span>
+      <span class="badge bg-secondary badge-pill">Streamlit</span>
+      <span class="badge bg-secondary badge-pill">joblib</span>
+      <span class="badge bg-secondary badge-pill">tqdm</span>
+
+              
+                    ><br />
+                    <a href="https://github.com/shubhamgatthewar05/ecommercesellsanalytics" class="read-more-btn link"><i
+                        class="fab fa-github"></i> GitHub</a>
+                  </div>
+                </div>
+              </div>
+        </div>
+      </div>
+    </section>
+    <!-- portfolio section ends here -->
+
+   
+       
+      
+              
+           
+
+
+    <!-- contact section starts -->
+    <section class="contact py-5" id="contact">
+      <div class="heading text-center">
+        <small>Get in Touch</small>
+        <h3>Any Questions? Feel Free to Contact</h3>
+      </div>
+      <div class="row justify-content-evenly mt-5">
+        <div class="col-md-5 col-10 contact-details" data-aos="slide-right">
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-geo-alt-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>Nanded, Maharashtra, India</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-telephone-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>+91 9922241580</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+            <div class="col-1">
+              <i class="bi bi-send-fill"></i>
+            </div>
+            <div class="col-11">
+              <p>gatthewarshubham0@gmail.com</p>
+            </div>
+          </div>
+          <div class="row justify-content-evenly">
+          
+          </div>
+        </div>
+        <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
+          <div class="contact-form">
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Name"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="email"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="E-mail"
+              />
+            </div>
+            <div class="mb-3">
+              <input
+                type="text"
+                class="form-control"
+                id="exampleFormControlInput1"
+                placeholder="Mobile No."
+              />
+            </div>
+            <div class="mb-3">
+              <textarea
+                class="form-control"
+                id="exampleFormControlTextarea1"
+                placeholder="Message"
+                rows="5"
+              ></textarea>
+            </div>
+            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+              Submit
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- contact section ends here -->
+
+      <!-- now we will make back to top button when user click on it it will be redirected to top page  -->
+    <button
+      type="button"
+      class="btn btn-floating btn-lg rounded-pill"
+      id="btn-back-to-top"
+    >
+      <i class="bi bi-arrow-up"></i>
+    </button>
+
+    <!-- footer section starts  -->
+    <footer class="text-center text-muted py-4">
+      <h3 class="text-white pt-4" data-aos="fade-up">Portfolio</h3>
+      <div class="link-group mt-5" data-aos="fade-up">
+        <a href="#home">Home</a>
+        <div class="vr"></div>
+        <a href="#about">About</a>
+        <div class="vr"></div>
+        <a href="#service">Service</a>
+        <div class="vr"></div>
+        <a href="#portfolio">Portfolio</a>
+        <div class="vr"></div>
+        <a href="#blog">Blog</a>
+        <div class="vr"></div>
+        <a href="#contact">Contact</a>
+  <div class="social-links mt-5" data-aos="fade-up" style="display: flex; justify-content: center; gap: 15px;">
+    <a href="https://www.linkedin.com/in/shubham-gatthewar-98a525250/" class="rounded-pill" target="_blank"
+      style="background-color: #0077b5; color: white; padding: 10px 15px; border-radius: 25px; text-decoration: none; transition: background-color 0.3s;">
+      <i class="bi bi-linkedin" style="font-size: 20px;"></i>
+    </a>
+    <a href="https://github.com/shubhamgatthewar05" class="rounded-pill" target="_blank"
+      style="background-color: #333; color: white; padding: 10px 15px; border-radius: 25px; text-decoration: none; transition: background-color 0.3s;">
+      <i class="bi bi-github" style="font-size: 20px;"></i>
+    </a>
+    <a href="https://www.kaggle.com/shubhamgatthewar05" class="rounded-pill" target="_blank"
+      style="background-color: #20beff; color: white; padding: 10px 15px; border-radius: 25px; text-decoration: none; transition: background-color 0.3s;">
+      <i class="bi bi-kaggle" style="font-size: 20px;"></i>
+    </a>
+  </div>
+  <hr class="text-muted my-4" />
+
+    <hr class="text-muted my-4" />
+
+    
+
+      <p>Copyright 2024 Portfolio | All Rights Reserved.</p>
+    </footer>
+    <!-- footer section ends here -->
+
+      <!-- bootstrap javascript cdn link  -->
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-kenU1KFdBIe4zVF0s0G1M5b4hcpxyD9F7jL+jjXkk+Q2h455rYXK/7HAuoJl+0I4"
+      crossorigin="anonymous"
+    ></script>
+
+    <!-- AOS library javascript link  -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      // initializing AOS library
+      AOS.init({
+        duration: 1000,
+        offset: 50,
+      });
+    </script>
+    <!-- custom js file linking -->
+    <script src="js/script.js"></script>
+    
+  </body>
+</html>
