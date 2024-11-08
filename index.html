@@ -567,38 +567,42 @@
                   <img src="images/Project8.png" class="card-img-top" alt="..." />
                   <div class="card-body text-center">
                     <h4 class="card-title">Fake News Detection App</h4>
-                  <p class="card-text justify-text">
-                    Developed a <b style="color: purple;">machine learning-based application</b> to classify news articles as <b
-                      style="color: purple;">Fake or True</b>. This project utilizes
-                    various <b style="color: purple;">classifiers</b> and <b style="color: purple;">natural language processing</b>
-                    techniques to provide accurate predictions, assisting users in
-                    discerning the authenticity of news content. The application leverages data handling with <b
-                      style="color: purple;">pandas</b> and <b style="color: purple;">numpy</b>, visualizations using
-                    <b style="color: purple;">seaborn</b>, <b style="color: purple;">matplotlib</b>, and <b
-                      style="color: purple;">wordcloud</b>,<span id="dots">...</span><span id="moreContent" style="display:none;"> and implements machine learning algorithms through
-                    <b style="color: purple;">scikit-learn</b> and <b style="color: purple;">xgboost</b>. It is built as a <b
-                      style="color: purple;">web app</b> using <b style="color: purple;">Streamlit</b>,
-                    ensuring user-friendly interaction, while also employing <b style="color: purple;">joblib</b> and <b
-                      style="color: purple;">tqdm</b> for model persistence and progress tracking.</span>
-                      <a href="javascript:void(0);" id="seeMoreLink" onclick="toggleContent()" style="color: purple;">See more...</a>
-                  </p>
-<script>
-  function toggleContent() {
-    var dots = document.getElementById("dots");
-    var moreContent = document.getElementById("moreContent");
-    var link = document.getElementById("seeMoreLink");
+              <p class="card-text justify-text">
+                Developed a <b style="color: purple;">machine learning-based application</b> to classify news articles as <b
+                  style="color: purple;">Fake or True</b>. This project utilizes
+                various <b style="color: purple;">classifiers</b> and <b style="color: purple;">natural language processing</b>
+                techniques to provide accurate predictions, assisting users in
+                discerning the authenticity of news content. The application leverages data handling with <b
+                  style="color: purple;">pandas</b> and <b style="color: purple;">numpy</b>, visualizations using
+                <b style="color: purple;">seaborn</b>, <b style="color: purple;">matplotlib</b>, and <b
+                  style="color: purple;">wordcloud</b>,<span id="dots1">...</span><span id="moreContent1" style="display:none;"> and
+                  implements machine learning algorithms through <b style="color: purple;">scikit-learn</b> and <b
+                    style="color: purple;">xgboost</b>. It is built as a <b style="color: purple;">web app</b> using
+                  <b style="color: purple;">Streamlit</b>, ensuring user-friendly interaction, while also employing <b
+                    style="color: purple;">joblib</b> and <b style="color: purple;">tqdm</b> for model persistence and progress
+                  tracking.</span>
+                <a href="javascript:void(0);" id="seeMoreLink1" onclick="toggleContent1()" style="color: purple;">See more...</a>
+              </p>
+              
+              <script>
+                function toggleContent1() {
+                  var dots = document.getElementById("dots1");
+                  var moreContent = document.getElementById("moreContent1");
+                  var link = document.getElementById("seeMoreLink1");
 
-    if (moreContent.style.display === "none") {
-      moreContent.style.display = "inline";
-      dots.style.display = "none";
-      link.innerHTML = "See less...";
-    } else {
-      moreContent.style.display = "none";
-      dots.style.display = "inline";
-      link.innerHTML = "See more...";
-    }
-  }
-</script>
+                  // Check if the moreContent is currently displayed or not
+                  if (moreContent.style.display === "none") {
+                    moreContent.style.display = "inline";  // Show the hidden content
+                    dots.style.display = "none";           // Hide the dots ("...")
+                    link.innerHTML = "See less...";         // Change the link text to "See less..."
+                  } else {
+                    moreContent.style.display = "none";   // Hide the content
+                    dots.style.display = "inline";        // Show the dots ("...")
+                    link.innerHTML = "See more...";        // Change the link text to "See more..."
+                  }
+                }
+              </script>
+
 
       <span class="badge bg-secondary badge-pill">Python</span>
       <span class="badge bg-secondary badge-pill">pandas</span>
