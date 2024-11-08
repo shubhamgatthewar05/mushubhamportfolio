@@ -205,7 +205,7 @@ body{
     margin-top: 10px;
 }
 
-/* Individual progress color settings */
+/* Individual progress color settings */    
 .html-css .circular-progress {
     background: conic-gradient(#e7b564 90deg, #ededed 0deg);
 }
