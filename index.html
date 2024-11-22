@@ -711,49 +711,30 @@
           </div>
         </div>
         <div class="col-md-5 col-10 mt-3 mt-md-0" data-aos="slide-left">
-          <form action="https://formspree.io/f/xnnqzyqa"
-            method="POST">
+        <form action="https://formspree.io/f/xnnqzyqa" method="POST">
           <div class="contact-form">
+            <!-- Name Field -->
             <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Name"
-                required
-              />
+              <input type="text" class="form-control" id="name" name="name" placeholder="Name" required />
             </div>
+        
+            <!-- Email Field -->
             <div class="mb-3">
-              <input
-                type="email"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="E-mail"
-                required
-              />
+              <input type="email" class="form-control" id="email" name="email" placeholder="E-mail" required />
             </div>
-            <!-- <div class="mb-3">
-              <input
-                type="text"
-                class="form-control"
-                id="exampleFormControlInput1"
-                placeholder="Mobile No."
-              />
-            </div> -->
+        
+            <!-- Message Field -->
             <div class="mb-3">
-              <textarea
-                class="form-control"
-                id="exampleFormControlTextarea1"
-                placeholder="Message"
-                rows="5"
-                required
-              ></textarea>
+              <textarea class="form-control" id="message" name="message" placeholder="Message" rows="5" required></textarea>
             </div>
-            <button class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
+        
+            <!-- Submit Button -->
+            <button type="submit" class="c-btn h-btn mt-3 py-3 px-5 rounded-pill">
               Submit
             </button>
           </div>
-          </form>
+        </form>
+
         </div>
 
       </div>
