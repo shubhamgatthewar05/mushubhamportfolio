@@ -94,8 +94,9 @@ body{
     transform-origin: bottom left;
 }
 /* adding animation to home section image  */
-.home img{
+.home img {
     animation: floatimg 4s ease-in-out infinite;
+    border-radius: 20px;
 }
 
 @keyframes floatimg {
