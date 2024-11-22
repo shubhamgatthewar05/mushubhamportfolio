@@ -95,10 +95,11 @@ body{
 }
 /* adding animation to home section image  */
 .home img {
- 
     animation: floatimg 4s ease-in-out infinite;
-    border-radius: 30%;
+    border-radius: 50%;
+    /* Makes the image circular */
     box-shadow: 0 0 20px 10px rgba(128, 0, 128, 0.5);
+    /* Purple glow effect */
 }
 
 @keyframes floatimg {
