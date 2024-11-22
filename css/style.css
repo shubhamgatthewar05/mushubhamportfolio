@@ -255,21 +255,23 @@ body{
     .progress-card {
         width: 160px;
     }
-          .home img {
-              width: 150px;
-              height: 150px;
-          }
+ .home img {
+     width: 120px;
+     height: 120px;
+ }
 }
+
+
 
 @media (max-width: 576px) {
     .progress-card {
         width: 140px;
         padding: 15px;
     }
-         .home img {
-             width: 120px;
-             height: 120px;
-         }
+                  .home img {
+                      width: 120px;
+                      height: 120px;
+                  }
 }
 
 
