@@ -95,10 +95,9 @@ body{
 }
 /* adding animation to home section image  */
 .home img {
-    width: 150px;
-    height: 150px;
+ 
     animation: floatimg 4s ease-in-out infinite;
-    border-radius: 70%;
+    border-radius: 30%;
     box-shadow: 0 0 20px 10px rgba(128, 0, 128, 0.5);
 }
 
