@@ -94,12 +94,35 @@ body{
     transform-origin: bottom left;
 }
 /* adding animation to home section image  */
+/* Default style for the image */
 .home img {
     animation: floatimg 4s ease-in-out infinite;
     border-radius: 50%;
-    /* Makes the image circular */
+    /* Circular shape */
     box-shadow: 0 0 20px 10px rgba(128, 0, 128, 0.5);
-    /* Purple glow effect */
+    /* Purple glow */
+    width: 200px;
+    /* Default size */
+    height: 200px;
+    /* Default size */
+    object-fit: cover;
+    /* Ensures image scales properly */
+}
+
+/* Responsive design for tablets */
+@media (max-width: 768px) {
+    .home img {
+        width: 150px;
+        height: 150px;
+    }
+}
+
+/* Responsive design for mobile phones */
+@media (max-width: 576px) {
+    .home img {
+        width: 120px;
+        height: 120px;
+    }
 }
 
 @keyframes floatimg {
